@@ -35,9 +35,15 @@
 
 ### 🐾 Stack
 
+<sub><code>// frontend & mobile</code></sub>
+<br/><br/>
 <img src="https://skillicons.dev/icons?i=react,vue,nextjs,flutter,kotlin,tailwind,ts,js&perline=8&theme=dark" height="38"/>
 <br/><br/>
+<sub><code>// backend & api</code></sub>
+<br/><br/>
 <img src="https://skillicons.dev/icons?i=laravel,nodejs,express,fastapi,php,prisma&perline=8&theme=dark" height="38"/>
+<br/><br/>
+<sub><code>// database & tools</code></sub>
 <br/><br/>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,supabase,firebase,redis,docker,git&perline=8&theme=dark" height="38"/>
 
@@ -49,13 +55,12 @@
 
 ### 📊 GitHub Stats
 
-<img src="https://img.shields.io/github/followers/skutanjir?style=for-the-badge&logo=github&color=1A1A1F&labelColor=B8B8C8&label=FOLLOWERS" height="32"/>
-<img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=1A1A1F&labelColor=B8B8C8&label=REPOS&query=public_repos&url=https://api.github.com/users/skutanjir" height="32"/>
-<img src="https://img.shields.io/github/stars/skutanjir?style=for-the-badge&logo=github&color=1A1A1F&labelColor=B8B8C8&label=STARS&affiliations=OWNER" height="32"/>
+<img src="https://github-readme-stats.vercel.app/api?username=skutanjir&show_icons=true&hide_border=true&bg_color=00000000&text_color=B8B8C8&title_color=F472B6&icon_color=22D3EE&ring_color=F472B6&rank_icon=github&include_all_commits=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skutanjir&layout=compact&hide_border=true&bg_color=00000000&text_color=B8B8C8&title_color=F472B6&langs_count=8" height="170"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=skutanjir&hide_border=true&theme=dark&card_width=500&short_numbers=true&ring=B8B8C8&fire=B8B8C8&currStreakLabel=B8B8C8&sideNums=B8B8C8&dates=8A8A98" height="130"/>
+<img src="https://streak-stats.demolab.com?user=skutanjir&hide_border=true&theme=dark&card_width=500&short_numbers=true&background=00000000&ring=F472B6&fire=F472B6&currStreakLabel=F472B6&currStreakNum=B8B8C8&sideNums=B8B8C8&sideLabels=B8B8C8&dates=8A8A98" height="150"/>
 
 </div>
 
@@ -65,7 +70,7 @@
 
 ### 📈 Activity
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=skutanjir&theme=github-compact&hide_border=true&area=true&height=220&color=B8B8C8&line=B8B8C8&point=ffffff&bg_color=00000000)](https://github.com/skutanjir)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=skutanjir&theme=github-compact&hide_border=true&area=true&height=220&color=B8B8C8&line=F472B6&point=22D3EE&bg_color=00000000)](https://github.com/skutanjir)
 
 </div>
 
