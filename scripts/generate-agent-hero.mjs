@@ -33,6 +33,10 @@ const profileLines = [
   { type: "row", key: "MedRecord", value: "ASR medical documentation" },
   { type: "row", key: "WA-Bot", value: "E-commerce automation" },
   { type: "blank" },
+  { type: "section", value: "SYS.METRICS" },
+  { type: "row", key: "Caffeine", value: "[#########.] 96%" },
+  { type: "row", key: "Sleep", value: "[#.........] 8%" },
+  { type: "blank" },
   { type: "section", value: "GRID.LINKS" },
   { type: "row", key: "GitHub", value: "@skutanjir" },
   { type: "footer", value: "signal.locked > FULLSTACK / MOBILE / NYA~" }
@@ -48,6 +52,7 @@ const palettes = {
     cyan: "#22D3EE",
     blue: "#38BDF8",
     violet: "#7C3AED",
+    pink: "#F472B6",
     green: "#10B981",
     red: "#F87171",
     scanBlend: "screen"
@@ -61,6 +66,7 @@ const palettes = {
     cyan: "#0891B2",
     blue: "#2563EB",
     violet: "#6D28D9",
+    pink: "#DB2777",
     green: "#047857",
     red: "#DC2626",
     scanBlend: "multiply"
@@ -127,7 +133,11 @@ function buildAmbientPortraitLayer(layout, colors, size) {
     <circle cx="${right}" cy="${bottom}" r="2.2" opacity="0.42"><animate attributeName="opacity" values="0.58;0.2;0.58" dur="6.4s" repeatCount="indefinite"/></circle>
     <circle cx="${left + (isDesktop ? 12 : 18)}" cy="${(centerY + 48).toFixed(1)}" r="1.7" opacity="0.32"/>
     <circle cx="${right - (isDesktop ? 10 : 16)}" cy="${(centerY - 58).toFixed(1)}" r="1.7" opacity="0.28"/>
+    <circle cx="${(centerX - orbitWidth * 0.5).toFixed(1)}" cy="${centerY.toFixed(1)}" r="2" fill="${colors.pink}" opacity="0.4"><animateTransform attributeName="transform" type="rotate" from="0 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" to="360 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" dur="42s" repeatCount="indefinite"/></circle>
   </g>
+  <path d="M ${centerX.toFixed(1)} ${centerY.toFixed(1)} L ${(centerX + orbitWidth * 0.62).toFixed(1)} ${(centerY - orbitHeight * 0.34).toFixed(1)} L ${(centerX + orbitWidth * 0.62).toFixed(1)} ${(centerY + orbitHeight * 0.1).toFixed(1)} Z" fill="url(#radar-sweep)" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="0 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" to="360 ${centerX.toFixed(1)} ${centerY.toFixed(1)}" dur="8s" repeatCount="indefinite"/>
+  </path>
 </g>`;
 }
 
@@ -305,8 +315,10 @@ function createHeroSvg(mode, size, portrait) {
 <desc id="description">An animated developer console with an ASCII portrait, stack overview, active builds, and profile links.</desc>
 <defs>
   <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.backgroundStart}"/><stop offset="1" stop-color="${colors.backgroundEnd}"/></linearGradient>
-  <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.cyan}"><animate attributeName="stop-color" values="${colors.cyan};${colors.violet};${colors.blue};${colors.cyan}" dur="9s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="${colors.violet}"><animate attributeName="stop-color" values="${colors.violet};${colors.blue};${colors.cyan};${colors.violet}" dur="9s" repeatCount="indefinite"/></stop></linearGradient>
-  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.violet}"/><stop offset="0.48" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.green}"/></linearGradient>
+  <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${colors.cyan}"><animate attributeName="stop-color" values="${colors.cyan};${colors.pink};${colors.violet};${colors.blue};${colors.cyan}" dur="12s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="${colors.violet}"><animate attributeName="stop-color" values="${colors.violet};${colors.blue};${colors.pink};${colors.cyan};${colors.violet}" dur="12s" repeatCount="indefinite"/></stop></linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.violet}"><animate attributeName="stop-color" values="${colors.violet};${colors.pink};${colors.violet}" dur="8s" repeatCount="indefinite"/></stop><stop offset="0.48" stop-color="${colors.cyan}"/><stop offset="1" stop-color="${colors.green}"><animate attributeName="stop-color" values="${colors.green};${colors.blue};${colors.green}" dur="8s" repeatCount="indefinite"/></stop></linearGradient>
+  <filter id="ascii-glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.1" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="radar-sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0"/><stop offset="1" stop-color="${colors.cyan}" stop-opacity="0.16"/></linearGradient>
   <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0"/><stop offset="0.5" stop-color="${colors.cyan}" stop-opacity="0.46"/><stop offset="1" stop-color="${colors.violet}" stop-opacity="0"/></linearGradient>
   <radialGradient id="portrait-halo"><stop offset="0" stop-color="${colors.cyan}" stop-opacity="0.12"/><stop offset="0.48" stop-color="${colors.blue}" stop-opacity="0.055"/><stop offset="1" stop-color="${colors.violet}" stop-opacity="0"/></radialGradient>
   <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="${colors.cyan}" opacity="0.052"/></pattern>
@@ -337,12 +349,14 @@ ${isDesktop ? `<circle cx="${liveX}" cy="${titlebar.y + titlebar.height / 2}" r=
 <rect x="${visual.x}" y="${visual.y}" width="${visual.width}" height="${visual.height}" rx="${visual.radius}" fill="${colors.panel}" fill-opacity="0.38" stroke="url(#border)" stroke-opacity="0.42"/>
 <rect x="${info.x}" y="${info.y}" width="${info.width}" height="${info.height}" rx="${info.radius}" fill="${colors.panel}" fill-opacity="0.42" stroke="url(#border)" stroke-opacity="0.42"/>
 <text x="${layout.visualTitle.x}" y="${layout.visualTitle.y}" class="panel-title">VISUAL.MAP / PORTRAIT.SIGNAL</text>
-<text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">SYSTEM.INFO / RESEARCH.BUILDER</text>
+<text x="${layout.infoTitle.x}" y="${layout.infoTitle.y}" class="panel-title">SYSTEM.INFO / FULLSTACK.DEV</text>
+<circle cx="${info.x + info.width - 74}" cy="${layout.infoTitle.y - 4}" r="3.5" fill="${colors.green}"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="${info.x + info.width - 64}" y="${layout.infoTitle.y}" class="panel-title" fill="${colors.green}">ONLINE</text>
 ${ambientPortrait}
-<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)"><text class="ascii" fill="${colors.cyan}" font-family="'Courier New', Consolas, monospace" font-size="${layout.portrait.fontSize}px" letter-spacing="-0.15px">${ascii}</text></g>
+<g clip-path="url(#portrait-clip)" mask="url(#portrait-reveal)" filter="url(#ascii-glow)"><text class="ascii" fill="${colors.cyan}" font-family="'Courier New', Consolas, monospace" font-size="${layout.portrait.fontSize}px" letter-spacing="-0.15px">${ascii}</text></g>
 ${system.rows}
 <rect x="${layout.system.x + 2}" y="${cursorY}" width="9" height="${layout.system.fontSize + 2}" fill="${colors.cyan}" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.03;0.06;0.32;0.5;0.68;0.84;1" dur="1.4s" begin="3.3s" repeatCount="indefinite"/></rect>
-<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">FULLSTACK / MOBILE / DEBUGGING AT 3AM</text>
+<text x="${layout.width / 2}" y="${layout.footerY}" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.5" fill="${colors.muted}">≽^•⩊•^≼  FULLSTACK / MOBILE / DEBUGGING AT 3AM  ≽^•⩊•^≼</text>
 <rect x="0" y="-70" width="${layout.width}" height="70" fill="url(#scan)" opacity="0.72" style="mix-blend-mode:${colors.scanBlend}"><animateTransform attributeName="transform" type="translate" from="0 -70" to="0 ${layout.height + 70}" dur="4.5s" repeatCount="indefinite"/></rect>
 <rect x="3" y="3" width="${layout.width - 6}" height="${layout.height - 6}" rx="${layout.outerRadius - 2}" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.76"><animate attributeName="opacity" values="0.5;0.94;0.5" dur="3.4s" repeatCount="indefinite"/></rect>
 </svg>`;
@@ -355,10 +369,10 @@ async function main() {
 
   await mkdir(outputDirectory, { recursive: true });
   await Promise.all([
-    writeFile(resolve(outputDirectory, "agent-console-v5-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v5-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v5-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
-    writeFile(resolve(outputDirectory, "agent-console-v5-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
+    writeFile(resolve(outputDirectory, "agent-console-v6-dark.svg"), createHeroSvg("dark", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v6-light.svg"), createHeroSvg("light", "desktop", desktopPortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v6-mobile-dark.svg"), createHeroSvg("dark", "mobile", mobilePortrait)),
+    writeFile(resolve(outputDirectory, "agent-console-v6-mobile-light.svg"), createHeroSvg("light", "mobile", mobilePortrait))
   ]);
 
   console.log(`Generated refined hero assets from ${basename(sourcePath)}.`);
