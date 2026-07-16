@@ -1,10 +1,16 @@
+<p align="center">
+  <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="./assets/hero/agent-console-v5-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/agent-console-v5-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero/agent-console-v5-light.svg">
+    <img src="./assets/hero/agent-console-v5-dark.svg" alt="Sulistyo Fajar Pratama - Fullstack and Mobile Developer" width="100%">
+  </picture>
+</p>
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:15151a,100:34343e&height=150&section=header" width="100%"/>
-
 <sub>≽^•⩊•^≼</sub>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=1200&color=B8B8C8&center=true&vCenter=true&width=550&lines=Sulistyo+Fajar+Pratama;Fullstack+%26+Mobile+Developer;probably+debugging+at+3am%2C+nya~" alt="Typing SVG" />
 
 <br/><br/>
 
