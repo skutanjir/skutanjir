@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="496" viewBox="0 0 940 496" role="img" aria-labelledby="t-title">
+<title id="t-title">sulistyo@devlab terminal - neofetch cat edition</title>
+<defs>
+  <linearGradient id="term-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0A0F"/><stop offset="1" stop-color="#15151A"/></linearGradient>
+  <linearGradient id="term-border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#F472B6;#7C3AED" dur="8s" repeatCount="indefinite"/></stop><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#F472B6"><animate attributeName="stop-color" values="#F472B6;#7C3AED;#F472B6" dur="8s" repeatCount="indefinite"/></stop></linearGradient>
+  <pattern id="term-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#22D3EE" opacity="0.04"/></pattern>
+  <clipPath id="term-line-0"><rect x="32" y="59.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.9s" begin="0.70s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-2"><rect x="32" y="107.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="1.34s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-3"><rect x="32" y="131.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="1.66s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-4"><rect x="32" y="155.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="1.98s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-5"><rect x="32" y="179.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="2.30s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-6"><rect x="32" y="203.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="2.62s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-7"><rect x="32" y="227.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="2.94s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-8"><rect x="32" y="251.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="3.26s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-9"><rect x="32" y="275.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="3.58s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-12"><rect x="32" y="347.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.9s" begin="4.54s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-13"><rect x="32" y="371.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="4.86s" fill="freeze"/></rect></clipPath>
+  <clipPath id="term-line-15"><rect x="32" y="419.5" width="0" height="24.5"><animate attributeName="width" from="0" to="876" dur="0.28s" begin="5.50s" fill="freeze"/></rect></clipPath>
+  <style>
+    .term { font-family: 'SF Mono', 'Cascadia Code', 'Courier New', Consolas, monospace; font-size: 14.5px; }
+    .term-title { font-family: 'SF Mono', 'Cascadia Code', 'Courier New', Consolas, monospace; font-size: 12.5px; letter-spacing: 0.4px; fill: #64748B; }
+    text, tspan { white-space: pre; }
+  </style>
+</defs>
+<rect width="940" height="496" rx="14" fill="url(#term-bg)"/>
+<rect width="940" height="496" rx="14" fill="url(#term-scan)"/>
+<rect x="0" y="0" width="940" height="42" rx="14" fill="#1A1A1F"/>
+<rect x="0" y="28" width="940" height="14" fill="#1A1A1F"/>
+<circle cx="26" cy="21" r="6.5" fill="#FF5F57"/>
+<circle cx="48" cy="21" r="6.5" fill="#FEBC2E"/>
+<circle cx="70" cy="21" r="6.5" fill="#28C840"/>
+<text x="470" y="26" text-anchor="middle" class="term-title">sulistyo@devlab — zsh — ≽^•⩊•^≼ — 80×24</text>
+<text x="852" y="474" class="term" font-size="46" fill="#F472B6" opacity="0.06" text-anchor="middle">≽^•⩊•^≼</text>
+<g clip-path="url(#term-line-0)"><text x="34" y="78" class="term"><tspan fill="#10B981">➜ </tspan><tspan fill="#22D3EE">~ </tspan><tspan fill="#E5E7EB">neofetch --cat</tspan></text></g>
+<g clip-path="url(#term-line-2)"><text x="34" y="126" class="term"><tspan fill="#F472B6">   /\_/\   </tspan><tspan fill="#F472B6" font-weight="700">      sulistyo</tspan><tspan fill="#64748B">@</tspan><tspan fill="#22D3EE" font-weight="700">devlab</tspan></text></g>
+<g clip-path="url(#term-line-3)"><text x="34" y="150" class="term"><tspan fill="#F472B6">  ( o.o )  </tspan><tspan fill="#64748B">      -----------------------------</tspan></text></g>
+<g clip-path="url(#term-line-4)"><text x="34" y="174" class="term"><tspan fill="#F472B6">   &gt; ^ &lt;   </tspan><tspan fill="#22D3EE" font-weight="700">      OS</tspan><tspan fill="#64748B">: ........ </tspan><tspan fill="#E5E7EB">Windows 11 + WSL2</tspan></text></g>
+<g clip-path="url(#term-line-5)"><text x="34" y="198" class="term"><tspan fill="#F472B6">  /|   |\  </tspan><tspan fill="#22D3EE" font-weight="700">      Shell</tspan><tspan fill="#64748B">: ..... </tspan><tspan fill="#E5E7EB">zsh + oh-my-cat</tspan></text></g>
+<g clip-path="url(#term-line-6)"><text x="34" y="222" class="term"><tspan fill="#F472B6">   (_|_)   </tspan><tspan fill="#22D3EE" font-weight="700">      IDE</tspan><tspan fill="#64748B">: ....... </tspan><tspan fill="#E5E7EB">VS Code / Android Studio</tspan></text></g>
+<g clip-path="url(#term-line-7)"><text x="34" y="246" class="term"><tspan fill="#F472B6">           </tspan><tspan fill="#22D3EE" font-weight="700">      Langs</tspan><tspan fill="#64748B">: ..... </tspan><tspan fill="#E5E7EB">TS / PHP / Dart / Kotlin</tspan></text></g>
+<g clip-path="url(#term-line-8)"><text x="34" y="270" class="term"><tspan fill="#F472B6">           </tspan><tspan fill="#22D3EE" font-weight="700">      Coffee</tspan><tspan fill="#64748B">: .... </tspan><tspan fill="#F59E0B">[#########.] 96%</tspan></text></g>
+<g clip-path="url(#term-line-9)"><text x="34" y="294" class="term"><tspan fill="#F472B6">           </tspan><tspan fill="#22D3EE" font-weight="700">      Sleep</tspan><tspan fill="#64748B">: ..... </tspan><tspan fill="#EF4444">segmentation fault (core dumped)</tspan></text></g>
+<rect x="166" y="305" width="26" height="15" rx="3" fill="#1A1A1F" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.90s" fill="freeze"/></rect><rect x="196" y="305" width="26" height="15" rx="3" fill="#EF4444" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="3.95s" fill="freeze"/></rect><rect x="226" y="305" width="26" height="15" rx="3" fill="#10B981" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.00s" fill="freeze"/></rect><rect x="256" y="305" width="26" height="15" rx="3" fill="#F59E0B" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.05s" fill="freeze"/></rect><rect x="286" y="305" width="26" height="15" rx="3" fill="#38BDF8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.10s" fill="freeze"/></rect><rect x="316" y="305" width="26" height="15" rx="3" fill="#7C3AED" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.15s" fill="freeze"/></rect><rect x="346" y="305" width="26" height="15" rx="3" fill="#F472B6" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.20s" fill="freeze"/></rect><rect x="376" y="305" width="26" height="15" rx="3" fill="#22D3EE" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.25s" fill="freeze"/></rect><rect x="406" y="305" width="26" height="15" rx="3" fill="#B8B8C8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.25s" begin="4.30s" fill="freeze"/></rect>
+<g clip-path="url(#term-line-12)"><text x="34" y="366" class="term"><tspan fill="#10B981">➜ </tspan><tspan fill="#22D3EE">~ </tspan><tspan fill="#E5E7EB">git commit -m </tspan><tspan fill="#10B981">&quot;fix: works on my machine, nya~&quot;</tspan></text></g>
+<g clip-path="url(#term-line-13)"><text x="34" y="390" class="term"><tspan fill="#38BDF8">[main 3a7f2c1]</tspan><tspan fill="#64748B"> shipped at </tspan><tspan fill="#F472B6" font-weight="700">3:47 AM</tspan><tspan fill="#64748B"> — 2 files changed, 0 regrets</tspan></text></g>
+<g clip-path="url(#term-line-15)"><text x="34" y="438" class="term"><tspan fill="#10B981">➜ </tspan><tspan fill="#22D3EE">~ </tspan></text></g>
+<rect x="78" y="422.5" width="10" height="18.5" fill="#B8B8C8" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0;1;1;0" keyTimes="0;0.01;0.45;0.5;0.55;0.6;0.95;1" dur="1.6s" begin="5.50s" repeatCount="indefinite"/></rect>
+<rect x="1.5" y="1.5" width="937" height="493" rx="13" fill="none" stroke="url(#term-border)" stroke-width="1.6" opacity="0.55"><animate attributeName="opacity" values="0.35;0.75;0.35" dur="4s" repeatCount="indefinite"/></rect>
+</svg>

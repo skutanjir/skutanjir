@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="420" viewBox="0 0 940 420" role="img" aria-labelledby="g-title">
+<title id="g-title">Deploy world map - broadcasting from East Java</title>
+<defs>
+  <linearGradient id="g-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0A0F"/><stop offset="1" stop-color="#15151A"/></linearGradient>
+  <radialGradient id="g-glow"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.14"/><stop offset="0.6" stop-color="#7C3AED" stop-opacity="0.05"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <linearGradient id="g-border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F472B6"/><stop offset="0.5" stop-color="#22D3EE"/><stop offset="1" stop-color="#7C3AED"/></linearGradient>
+  <path id="cat-orbit" d="M 250 46 A 164 164 0 1 1 249.9 46" fill="none"/>
+  <style>
+    .g-mono { font-family: 'SF Mono', 'Cascadia Code', 'Courier New', Consolas, monospace; }
+    .g-title { font-family: 'SF Mono', 'Cascadia Code', 'Courier New', Consolas, monospace; font-size: 11px; letter-spacing: 2px; fill: #38BDF8; opacity: 0.78; }
+    text { white-space: pre; }
+  </style>
+</defs>
+<rect width="940" height="420" rx="14" fill="url(#g-bg)"/>
+<text x="28" y="34" class="g-title">WORLD.MAP / DEPLOY.SIGNAL</text>
+<circle cx="792" cy="29" r="3.5" fill="#10B981"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="802" y="34" class="g-title" fill="#10B981">BROADCASTING</text>
+<circle cx="250" cy="210" r="184" fill="url(#g-glow)"/>
+<circle cx="250" cy="210" r="138" fill="none" stroke="#22D3EE" stroke-width="1.1" opacity="0.5"/>
+<ellipse cx="250" cy="118.9" rx="103.7" ry="24.9" fill="none" stroke="#38BDF8" stroke-width="0.8" opacity="0.22"/>
+  <ellipse cx="250" cy="164.5" rx="130.3" ry="31.3" fill="none" stroke="#38BDF8" stroke-width="0.8" opacity="0.22"/>
+  <ellipse cx="250" cy="210.0" rx="138.0" ry="33.1" fill="none" stroke="#38BDF8" stroke-width="0.8" opacity="0.22"/>
+  <ellipse cx="250" cy="255.5" rx="130.3" ry="31.3" fill="none" stroke="#38BDF8" stroke-width="0.8" opacity="0.22"/>
+  <ellipse cx="250" cy="301.1" rx="103.7" ry="24.9" fill="none" stroke="#38BDF8" stroke-width="0.8" opacity="0.22"/>
+  <ellipse cx="250" cy="210" rx="138" ry="138" fill="none" stroke="#22D3EE" stroke-width="0.9" opacity="0.28">
+    <animate attributeName="rx" values="138;2;138" dur="6s" begin="0.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.28;0.08;0.28" dur="6s" begin="0.0s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="250" cy="210" rx="138" ry="138" fill="none" stroke="#22D3EE" stroke-width="0.9" opacity="0.28">
+    <animate attributeName="rx" values="138;2;138" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.28;0.08;0.28" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="250" cy="210" rx="138" ry="138" fill="none" stroke="#22D3EE" stroke-width="0.9" opacity="0.28">
+    <animate attributeName="rx" values="138;2;138" dur="6s" begin="3.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.28;0.08;0.28" dur="6s" begin="3.0s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="250" cy="210" rx="138" ry="138" fill="none" stroke="#22D3EE" stroke-width="0.9" opacity="0.28">
+    <animate attributeName="rx" values="138;2;138" dur="6s" begin="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.28;0.08;0.28" dur="6s" begin="4.5s" repeatCount="indefinite"/>
+  </ellipse>
+<circle cx="300" cy="268" r="4.5" fill="#F472B6"/>
+<circle cx="300" cy="268" r="4.5" fill="none" stroke="#F472B6" stroke-width="1.4"><animate attributeName="r" values="4.5;22" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></circle>
+<text x="312" y="290" class="g-mono" font-size="11.5" font-weight="700" fill="#F472B6">EAST_JAVA.NODE</text>
+<text class="g-mono" font-size="15" fill="#F472B6"><animateMotion dur="14s" repeatCount="indefinite" rotate="auto"><mpath href="#cat-orbit"/></animateMotion>≽^•⩊•^≼</text>
+<path id="wire-0" d="M 300 268 C 409.68 227.95999999999998, 430 135, 506 115" fill="none" stroke="#7C3AED" stroke-width="0.9" opacity="0.3" stroke-dasharray="4 6"/>
+  <circle r="2.6" fill="#10B981"><animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite"><mpath href="#wire-0"/></animateMotion></circle>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
+    <circle cx="520" cy="115" r="4" fill="#10B981"><animate attributeName="opacity" values="1;0.35;1" dur="2.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <text x="536" y="113" class="g-mono" font-size="15" font-weight="700" fill="#E5E7EB">medrecord.api</text>
+    <text x="536" y="132" class="g-mono" font-size="12" fill="#64748B">ASR clinical docs</text>
+    <text x="904" y="113" text-anchor="end" class="g-mono" font-size="12" font-weight="700" fill="#10B981">[LIVE]</text>
+  </g>
+  <path id="wire-1" d="M 300 268 C 409.68 215.95999999999998, 430 200, 506 180" fill="none" stroke="#7C3AED" stroke-width="0.9" opacity="0.3" stroke-dasharray="4 6"/>
+  <circle r="2.6" fill="#10B981"><animateMotion dur="2.9s" begin="1.2s" repeatCount="indefinite"><mpath href="#wire-1"/></animateMotion></circle>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.2s" fill="freeze"/>
+    <circle cx="520" cy="180" r="4" fill="#10B981"><animate attributeName="opacity" values="1;0.35;1" dur="2.2s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <text x="536" y="178" class="g-mono" font-size="15" font-weight="700" fill="#E5E7EB">wa-bot.worker</text>
+    <text x="536" y="197" class="g-mono" font-size="12" fill="#64748B">e-commerce automation</text>
+    <text x="904" y="178" text-anchor="end" class="g-mono" font-size="12" font-weight="700" fill="#10B981">[LIVE]</text>
+  </g>
+  <path id="wire-2" d="M 300 268 C 409.68 203.95999999999998, 430 265, 506 245" fill="none" stroke="#7C3AED" stroke-width="0.9" opacity="0.3" stroke-dasharray="4 6"/>
+  <circle r="2.6" fill="#22D3EE"><animateMotion dur="3.4s" begin="1.6s" repeatCount="indefinite"><mpath href="#wire-2"/></animateMotion></circle>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.6s" fill="freeze"/>
+    <circle cx="520" cy="245" r="4" fill="#22D3EE"><animate attributeName="opacity" values="1;0.35;1" dur="2.2s" begin="1.6s" repeatCount="indefinite"/></circle>
+    <text x="536" y="243" class="g-mono" font-size="15" font-weight="700" fill="#E5E7EB">portfolio.web</text>
+    <text x="536" y="262" class="g-mono" font-size="12" fill="#64748B">sulistyofajarpratama.my.id</text>
+    <text x="904" y="243" text-anchor="end" class="g-mono" font-size="12" font-weight="700" fill="#22D3EE">[200 OK]</text>
+  </g>
+  <path id="wire-3" d="M 300 268 C 409.68 191.95999999999998, 430 330, 506 310" fill="none" stroke="#7C3AED" stroke-width="0.9" opacity="0.3" stroke-dasharray="4 6"/>
+  <circle r="2.6" fill="#F59E0B"><animateMotion dur="3.9s" begin="2.0s" repeatCount="indefinite"><mpath href="#wire-3"/></animateMotion></circle>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.0s" fill="freeze"/>
+    <circle cx="520" cy="310" r="4" fill="#F59E0B"><animate attributeName="opacity" values="1;0.35;1" dur="2.2s" begin="2.0s" repeatCount="indefinite"/></circle>
+    <text x="536" y="308" class="g-mono" font-size="15" font-weight="700" fill="#E5E7EB">side-project.zip</text>
+    <text x="536" y="327" class="g-mono" font-size="12" fill="#64748B">half-finished, as always</text>
+    <text x="904" y="308" text-anchor="end" class="g-mono" font-size="12" font-weight="700" fill="#F59E0B">[WIP]</text>
+  </g>
+<text x="28" y="400" class="g-mono" font-size="11.5" fill="#64748B">PING: 24ms · REGION: ASIA-SOUTHEAST · MOOD: COMFY · UPTIME: since last coffee</text>
+<rect x="1.5" y="1.5" width="937" height="417" rx="13" fill="none" stroke="url(#g-border)" stroke-width="1.4" opacity="0.4"><animate attributeName="opacity" values="0.25;0.6;0.25" dur="4.5s" repeatCount="indefinite"/></rect>
+</svg>

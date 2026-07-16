@@ -25,28 +25,9 @@
 
 </div>
 
-<table align="center" width="100%">
-<tr>
-<td width="100%">
-
-```yaml
-whoami:
-  name: "Sulistyo Fajar Pratama"
-  role: "Fullstack & Mobile Developer"
-  base: "East Java, ID"
-  currently_building:
-    - "ASR-based medical record documentation app 🩺"
-    - "WhatsApp e-commerce automation platform 🛒"
-  currently_learning:
-    - "Advanced React patterns"
-    - "AI/ML integration"
-  ask_me_about: ["Vue", "Laravel", "Node.js", "Flutter", "Kotlin", "PHP"]
-  fun_fact: "runs on caffeine and half-finished side projects"
-```
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./assets/showcase/terminal-v1.svg" alt="sulistyo@devlab terminal — neofetch cat edition" width="100%">
+</p>
 
 <br/>
 
@@ -85,6 +66,16 @@ whoami:
 ### 📈 Activity
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=skutanjir&theme=github-compact&hide_border=true&area=true&height=220&color=B8B8C8&line=B8B8C8&point=ffffff&bg_color=00000000)](https://github.com/skutanjir)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 🌏 Broadcasting From
+
+<img src="./assets/showcase/globe-v1.svg" alt="Deploy world map — broadcasting from East Java" width="100%">
 
 </div>
 
