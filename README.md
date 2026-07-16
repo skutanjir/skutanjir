@@ -55,7 +55,13 @@
 
 ### 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=skutanjir&show_icons=true&hide_border=true&bg_color=00000000&text_color=B8B8C8&title_color=F472B6&icon_color=22D3EE&ring_color=F472B6&rank_icon=github&include_all_commits=true" height="170"/>
+<img src="https://img.shields.io/github/followers/skutanjir?style=for-the-badge&logo=github&color=1A1A1F&labelColor=F472B6&label=FOLLOWERS" height="30"/>
+<img src="https://img.shields.io/github/stars/skutanjir?style=for-the-badge&logo=github&color=1A1A1F&labelColor=22D3EE&label=STARS&affiliations=OWNER" height="30"/>
+<img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=1A1A1F&labelColor=B8B8C8&label=REPOS&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fskutanjir" height="30"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=skutanjir&show_icons=true&hide_border=true&bg_color=00000000&text_color=B8B8C8&title_color=F472B6&icon_color=22D3EE&ring_color=F472B6&rank_icon=github" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skutanjir&layout=compact&hide_border=true&bg_color=00000000&text_color=B8B8C8&title_color=F472B6&langs_count=8" height="170"/>
 
 <br/><br/>
